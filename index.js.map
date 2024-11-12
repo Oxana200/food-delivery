@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"index.js","sources":["../src/js/slider.js"],"sourcesContent":["\n$('.single-item').slick({\n    prevArrow: $('.slick-prev'),\n    nextArrow: $('.slick-next')\n});"],"names":[],"mappings":"ssBACA,EAAE,cAAc,EAAE,MAAM,CACpB,UAAW,EAAE,aAAa,EAC1B,UAAW,EAAE,aAAa,CAC9B,CAAC"}
