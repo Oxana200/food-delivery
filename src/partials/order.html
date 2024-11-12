@@ -1,0 +1,35 @@
+<section class="order">
+  <div class="container order-container">
+    <picture>
+      <source
+        srcset="./images/banan-dsk.png 1x, ./images/banan-dsk-2x.png 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="./images/banan-tab.png 1x, ./images/banan-tab-2x.png 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./images/banan-mob.png 1x, ./images/banan-mob-2x.png 2x"
+        media="(max-width: 768px)"
+      />
+      <img class="order-img" src="./images/banan-mob.png" alt="banan" />
+    </picture>
+    <div class="feedback-wrap">
+      <h2 class="order-title">Subscribe To Get Special Offers</h2>
+      <p class="order-text">
+        Order now and receive 10% off your first meal with Enjoy Your Favorite
+        Food From Anywhere.
+      </p>
+      <div class="order-input-wrap">
+        <input
+          class="order-input"
+          type="email"
+          placeholder="Enter your email"
+          name="user-email"
+        />
+        <button class="order-button" type="submit">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>

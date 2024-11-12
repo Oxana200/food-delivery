@@ -1,0 +1,162 @@
+.about-us-container {
+    padding-top: 91px;
+}
+
+.apple {
+    margin-bottom: 60px;
+}
+
+.title-about-us {
+    margin-bottom: 28px;
+    font-weight: 700;
+    font-size: 28px;
+    width: 280px;
+}
+
+.text-about-us {
+    margin-bottom: 28px;
+    line-height: 1.4;
+    width: 280px;
+    font-size: 14px;
+}
+
+.icon {
+    fill: #7eb101;
+    margin-bottom: 8px;
+}
+
+.advantage-title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.advantage-text {
+    margin-bottom: 24px;
+    line-height: 1.5;
+    width: 260px;
+    font-size: 14px;
+}
+
+.advantage-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #7eb101;
+    border-radius: 30px;
+    width: 106px;
+    height: 40px;
+    background-color: inherit;
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 13px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.advantage-button:hover,
+.advantage-button:focus {
+    background: #bbf330;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us-container {
+        padding-top: 42px;
+    }
+
+    .title-about-us {
+        margin-bottom: 20px;
+        width: 526px;
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+    .text-about-us {
+        margin-bottom: 33px;
+        width: 500px;
+    }
+
+    .our-advantages {
+        display: flex;
+        gap: 80px;
+    }
+
+    .our-advantage {
+        width: 288px;
+    }
+
+    .advantage-text {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us {
+        background-color: #ffe550;
+    }
+
+    .about-us-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 205px;
+        padding-bottom: 110px;
+    }
+
+    .apple-img-border {
+        border-radius: 100%;
+        border: 5px solid rgba(255, 255, 255, 0.5);
+        width: 530px;
+        height: 532px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+    }
+
+    .apple-img {
+        border-radius: 100%;
+        background-color: #fefefe;
+        width: 482px;
+        height: 482px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .apple {
+        margin-top: -50px;
+    }
+
+    .our-advantages {
+        gap: 67px;
+    }
+
+    .our-advantage {
+        width: 253px;
+    }
+
+    .icon-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 100%;
+        background-color: #fefefe;
+        margin-bottom: 8px;
+    }
+
+    .icon {
+        margin-bottom: 0px;
+    }
+
+    .about-us-wrap {
+        justify-content: space-between;
+    }
+
+    .advantage-button {
+        background: #fff;
+    }
+}
