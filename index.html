@@ -31,7 +31,7 @@
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
     <script type="module" crossorigin src="/food-delivery/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/food-delivery/assets/index-CGjo-cLI.css">
+    <link rel="stylesheet" crossorigin href="/food-delivery/assets/index-Buz68941.css">
   </head>
 
   <body>
@@ -49,17 +49,17 @@
         <li><a class="nav-link" href="">Contact</a></li>
       </ul>
     </nav>
-    <button class="main-button" type="button">Order Now</button>
-    <button class="burger-btn" type="button">
+    <button class="main-button" type="button" data-modal-open>Order Now</button>
+    <button class="burger-btn" type="button" data-menu-open>
       <svg class="burger-icon" width="28" height="28">
         <use href="/food-delivery/assets/icons-B4x0sAPv.svg#icon-burger"></use>
       </svg>
     </button>
   </div>
 
-  <div class="mobile-menu">
+  <div class="mobile-menu" data-menu>
     <div class="container mobile-menu-container">
-      <button type="button" class="mobile-menu-close">
+      <button type="button" class="mobile-menu-close" data-menu-close>
         <svg class="cross-icon" width="8" height="8">
           <use href="/food-delivery/assets/icons-B4x0sAPv.svg#icon-cross"></use>
         </svg>
@@ -90,7 +90,9 @@
         straight to your doorstep, no matter where you are. Order now and enjoy
         a hassle-free and delicious meal from the comfort of your own home.
       </p>
-      <button class="main-button-start" type="button">Order Now</button>
+      <button class="main-button-start" type="button" data-modal-open>
+        Order Now
+      </button>
     </div>
     <div class="salad-border">
       <div class="single-item">
@@ -221,7 +223,9 @@
           </p>
         </li>
       </ul>
-      <button type="button" class="advantage-button">Order Now</button>
+      <button type="button" class="advantage-button" data-modal-open>
+        Order Now
+      </button>
     </div>
   </div>
 </section>
@@ -521,9 +525,9 @@
 </footer>
 
 
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
   <div class="modal">
-    <button class="close-form-btn" type="submit">
+    <button class="close-form-btn" type="submit" data-modal-close>
       <svg class="cross-icon" width="12" height="12">
         <use href="/food-delivery/assets/icons-B4x0sAPv.svg#icon-cross"></use>
       </svg>
